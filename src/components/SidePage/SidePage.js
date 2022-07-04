@@ -28,7 +28,7 @@ export default function SidePage() {
             />
             <ImgText src="letter.webp" title="bellec.cyril@laposte.net" />
             <ImgText src="phone.webp" title="06 98 17 33 59" />
-            <ImgText src="screen.webp" title="" />
+            <ImgText src="screen.webp" title="www.cyrilbellec-dev-web.fr" />
           </ul>
         </div>
       </div>
