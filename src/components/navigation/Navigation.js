@@ -4,7 +4,7 @@ import NavItem from "./NavItem";
 export default function Navigation() {
   return (
     <nav className="bg-white border-gray-200 rounded px-10">
-      <div className="  flex flex-wrap  mx-auto">
+      <div className="  flex flex-wrap justify-between  mx-auto">
         <a
           href="/src/pages/Home.js"
           className="flex items-center text-primary-dark text-3xl font-bold pr-5"
