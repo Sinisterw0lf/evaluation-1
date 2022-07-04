@@ -1,7 +1,10 @@
 import React from 'react'
+import HomeProgressBar from './HomeProgressBar'
 
 export default function HomeProgress() {
   return (
-    <div>HomeProgress</div>
+    <div>
+        <HomeProgressBar/>
+    </div>
   )
 }

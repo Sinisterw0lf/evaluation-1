@@ -4,7 +4,7 @@ import NavItem from "./NavItem";
 export default function Navigation() {
   return (
     <nav className="bg-white border-gray-200 rounded px-10">
-      <div className="  flex flex-wrap justify-between  mx-auto">
+      <div className="  flex flex-wrap gap-10 md:gap-0   mx-auto">
         <a
           href="/src/pages/Home.js"
           className="flex items-center text-primary-dark text-3xl font-bold pr-5"
@@ -18,7 +18,7 @@ export default function Navigation() {
         <button
           data-collapse-toggle="mobile-menu"
           type="button"
-          className="inline-flex items-center p-2 ml-3 text-sm  text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+          className="inline-flex justify-between items-center p-2 ml-3 text-sm  text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
           aria-controls="mobile-menu"
           aria-expanded="false"
         >
@@ -54,10 +54,7 @@ export default function Navigation() {
             <NavItem titleItem="Skills" linkItem="/skills" />
             <NavItem titleItem="Services" linkItem="/services" />
             <NavItem titleItem="Portfolio" linkItem="/portfolio" />
-            <NavItem
-              titleItem="Testimonials"
-              linkItem="/stestimony"
-            />
+            <NavItem titleItem="Testimonials" linkItem="/stestimony" />
             <NavItem titleItem="Contact" linkItem="/contact" />
           </ul>
         </div>
