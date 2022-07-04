@@ -3,8 +3,8 @@ import NavItem from "./NavItem";
 
 export default function Navigation() {
   return (
-    <nav className="bg-white border-gray-200 rounded">
-      <div className=" px-5 flex flex-wrap  mx-auto">
+    <nav className="bg-white border-gray-200 rounded px-10">
+      <div className="  flex flex-wrap  mx-auto">
         <a
           href="/src/pages/Home.js"
           className="flex items-center text-primary-dark text-3xl font-bold pr-5"
