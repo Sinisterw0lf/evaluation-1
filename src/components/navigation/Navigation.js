@@ -3,7 +3,7 @@ import NavItem from "./NavItem";
 
 export default function Navigation() {
   return (
-    <nav className="bg-white border-gray-200 rounded px-10">
+    <nav className="bg-white border-gray-200 rounded px-5">
       <div className="  flex flex-wrap gap-10 md:gap-0   mx-auto">
         <a
           href="/src/pages/Home.js"
@@ -49,12 +49,12 @@ export default function Navigation() {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
-          <ul className="flex flex-col text-accent-lightest  p-3 mt-4 md:flex-row md:divide-x-2  md:mt-0 md:text-sm md:font-medium">
+          <ul className="flex flex-col text-accent-lightest   mt-4 md:flex-row md:divide-x-2  md:mt-0 md:text-sm md:font-medium">
             <NavItem titleItem="About" linkItem="/" />
             <NavItem titleItem="Skills" linkItem="/skills" />
             <NavItem titleItem="Services" linkItem="/services" />
             <NavItem titleItem="Portfolio" linkItem="/portfolio" />
-            <NavItem titleItem="Testimonials" linkItem="/stestimony" />
+            <NavItem titleItem="Testimonials" linkItem="/testimony" />
             <NavItem titleItem="Contact" linkItem="/contact" />
           </ul>
         </div>

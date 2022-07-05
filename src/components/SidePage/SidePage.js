@@ -10,18 +10,18 @@ import {
 
 export default function SidePage() {
   return (
-    <div className="px-5 container ">
+    <div className="">
       <img
-        className="md:w-1/4 md:h-2/4"
+        className=" "
         src="xsmith.jpg.pagespeed.ic.-fvXWI23nq.webp"
         alt=""
       />
-      <div className="bg-primary-dark px-5 py-3 md:w-1/4 md:h-2/4 ">
-        <h2 className="capitalize  py-2 text-center font-semibold text-2xl text-accent-lightest">
+      <div className="bg-primary-dark px-3 pb-1  ">
+        <h2 className="capitalize text-center font-semibold text-2xl text-accent-lightest">
           General information
         </h2>
         <div className="">
-          <ul className="text-accent-dark text-sm space-y-5">
+          <ul className="text-accent-dark text-xs space-y-5 md:space-y-[0.9rem]">
             <Span
               src="pen.webp"
               title="Name:"
@@ -36,7 +36,7 @@ export default function SidePage() {
             <ImgText src="phone.webp" title="06 98 17 33 59" />
             <ImgText src="screen.webp" title="www.cyrilbellec-dev-web.fr" />
           </ul>
-          <div className="flex gap-10 justify-center py-3 text-accent-dark">
+          <div className="flex gap-5 justify-center pt-4 md:pt-0 text-accent-dark">
             <FaGooglePlusG />
             <FaPinterest />
             <FaFacebookF />
