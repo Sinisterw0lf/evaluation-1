@@ -26,7 +26,7 @@ export default function ContactFormulaire() {
             </label>
           </div>
         </div>
-        <div className="pt-10">
+        <div className="pt-5">
           <label for="text" className="">
             <input
               type="text"
@@ -37,18 +37,18 @@ export default function ContactFormulaire() {
           </label>
         </div>
         <div>
-          <label for="message" class="block pb-7 text-sm font-medium  "></label>
+          <label for="message" className="block pb-7 text-sm font-medium  "></label>
           <textarea
             id="message"
             rows="4"
-            class="block p-2.5 w-full md:w-1/2 text-sm text-gray-900 bg-white rounded-lg border  "
+            className="block p-2.5 w-full md:w-1/2 text-sm text-gray-900 bg-white rounded-lg border  "
             placeholder="Message"
           ></textarea>
         </div>
-        <div className="pt-5">
+        <div className="pt-5 pb-5">
           <button
             type="submit"
-            class="text-white bg-primary-light   font-medium  text-sm md:w-auto  px-5 py-2.5 text-center "
+            className="text-white bg-primary-light   font-medium  text-sm md:w-auto  px-5 py-2.5 text-center "
           >
             Send Message
           </button>

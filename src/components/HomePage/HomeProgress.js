@@ -10,7 +10,7 @@ export default function HomeProgress() {
       className=" container md:pl-0 md:pb-[3.6rem]
     "
     >
-      <div className="grid grid-rows-4 px-14 items-center space-y-20 w-1/4 h-1/4 md:w-auto md:h-auto md:space-y-0   md:space-x-10  md:flex  md:pl-10  ">
+      <div className="grid grid-rows-4 px-14 items-center space-y-20 w-1/4 h-1/4 md:w-auto md:h-auto md:space-y-0   md:space-x-10  md:flex  md:pl-10 md: ">
         <HomeProgressBar />
         <HomeProgressBar2 />
         <HomeProgressBar3 />

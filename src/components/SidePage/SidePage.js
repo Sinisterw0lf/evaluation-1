@@ -11,17 +11,19 @@ import {
 export default function SidePage() {
   return (
     <div className="">
-      <img
-        className=" "
-        src="xsmith.jpg.pagespeed.ic.-fvXWI23nq.webp"
-        alt=""
-      />
+      <div>
+        <img
+          className=" "
+          src="xsmith.jpg.pagespeed.ic.-fvXWI23nq.webp"
+          alt=""
+        />
+      </div>
       <div className="bg-primary-dark px-3 pb-1  ">
         <h2 className="capitalize text-center font-semibold text-2xl text-accent-lightest">
           General information
         </h2>
-        <div className="">
-          <ul className="text-accent-dark text-xs space-y-5 md:space-y-[0.9rem]">
+        <div className="px-5">
+          <ul className="text-accent-dark text-xs space-y-3 ">
             <Span
               src="pen.webp"
               title="Name:"
