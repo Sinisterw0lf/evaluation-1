@@ -9,7 +9,7 @@ export default function Services() {
     <Layout>
       <div className="bg-accent-lightest ">
         <ServicesTitle />
-        <div className="block md:flex px-5  md:px-20">
+        <div className="block md:flex px-5  md:px-10">
           <ServicesCard
             src="reveil.webp"
             alt="blue clock"

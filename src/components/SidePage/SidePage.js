@@ -10,7 +10,7 @@ import {
 
 export default function SidePage() {
   return (
-    <div className="">
+    <div className="max-w-sm flex-shrink-0">
       <div>
         <img
           className=" "

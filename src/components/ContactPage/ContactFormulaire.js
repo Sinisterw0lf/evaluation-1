@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactFormulaire() {
   return (
-    <div className="px-10 py-10">
+    <div className="px-10 py-7">
       <form>
         <div className="md:flex md:space-x-14 space-y-10 md:space-y-0">
           <div className="">
