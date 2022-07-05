@@ -4,13 +4,13 @@ export default function ContactFormulaire() {
   return (
     <div className="px-10 py-10">
       <form>
-        <div className="flex space-x-16">
+        <div className="md:flex md:space-x-14 space-y-10 md:space-y-0">
           <div className="">
             <label for="text" className="">
               <input
                 type="text"
                 id="name"
-                className="w-full rounded-lg border-accent-darkest"
+                className="w-full md:w-auto rounded-lg border-accent-darkest border-t-2 border-l-2"
                 placeholder="Name"
               />
             </label>
@@ -20,38 +20,35 @@ export default function ContactFormulaire() {
               <input
                 type="text"
                 id="name"
-                className="w-full rounded-lg"
+                className="w-full md:w-auto rounded-lg border-accent-darkest border-t-2 border-l-2 border-b-primary-light border-b-2 md:border-b md:border-b-accent-darkest"
                 placeholder="E-mail"
               />
             </label>
           </div>
         </div>
-        <div className="pt-5">
+        <div className="pt-10">
           <label for="text" className="">
             <input
               type="text"
               id="name"
-              className="w-1/2 rounded-lg"
+              className="w-full md:w-1/2 rounded-lg border-t-2 border-l-2 border-accent-darkest"
               placeholder="Subject"
             />
           </label>
         </div>
         <div>
-          <label
-            for="message"
-            class="block pb-5 text-sm font-medium  "
-          ></label>
+          <label for="message" class="block pb-7 text-sm font-medium  "></label>
           <textarea
             id="message"
             rows="4"
-            class="block p-2.5 w-1/2 text-sm text-gray-900 bg-white rounded-lg border  "
+            class="block p-2.5 w-full md:w-1/2 text-sm text-gray-900 bg-white rounded-lg border  "
             placeholder="Message"
           ></textarea>
         </div>
         <div className="pt-5">
           <button
             type="submit"
-            class="text-white bg-primary-light   font-medium  text-sm w-1/2 sm:w-auto px-5 py-2.5 text-center "
+            class="text-white bg-primary-light   font-medium  text-sm md:w-auto  px-5 py-2.5 text-center "
           >
             Send Message
           </button>
